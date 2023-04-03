@@ -1,0 +1,181 @@
+ @media only screen and (max-width:768px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+   
+    /* <!-- start av bar --> */
+    header{
+        flex-direction: column;
+        background-color: rgba(89, 89, 89, 0.8);
+    }
+    header .logo {
+        color: #20c997;
+    }
+    header nav{
+        flex-direction: column;
+        align-items:center;
+        margin-top: 10px;
+    }
+    header nav a{
+        margin: 5px 0px;
+        border-bottom: 1px solid #808080;
+    }
+    /* <!-- end nav bar --> */
+
+    /* <!-- start home section --> */
+    .home .layout {
+    }
+    .layout .content{
+        margin-top: 100px;
+    }
+    .home .cta{
+        background-color: #20c997;
+        color: #fff;
+    }
+    .set-btn{
+        display: none;
+    }
+    /* <!-- end home section --> */
+
+    /*  <!-- start aboue me section --> */
+    .about{
+        padding: 0px;
+        margin: 0px;
+    }
+    .title h2{
+        font-size: 60px;
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .about .container {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .text-content{
+        width: 100%;
+        text-align: center;
+        padding: 3px;
+    }
+    .about .info ul{
+        margin-top: 40px;
+        text-align: left;
+    }
+    .about .num-container{
+        width: 100%;
+        padding: 0px;
+
+    }
+    .about .num-clu{
+        flex-direction:row;
+        margin: 0px;
+        padding: 0px;
+    }
+    .about .colm h4{
+        font-size: 40px;
+    }
+    /*  <!-- end aboue me section --> */
+
+    /* <!-- start services section --> */
+    .services{
+        padding: 5px;
+    }
+    .services .serv-container{
+        flex-direction: column;
+    }
+    .services .service{
+        width: 100%;
+        margin: 20 0px;
+        padding: 0px;
+    }
+    /* <!-- end services section --> */
+
+    /* <!-- start resume section --> */
+    .resume{
+        padding: 10px;
+    }
+    .resume .res-container{
+        flex-direction: column;
+    }
+    .skills-container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .skills-container .left-skills,.right-skills{
+        width: 100%;
+    }
+    .resume .Main-CTA{
+        background-color: #20c997;
+        color: #fff;
+    }
+    /* <!-- end resume section --> */
+
+    /* <!-- start portfolio section --> */
+    .portfolio{
+        padding: 5px;
+    }
+    .portfolio .por-content{
+        flex-direction: column;
+    }
+    /* <!-- end portfolio section --> */
+
+    /* <!-- start client section --> */
+    .client{
+        padding: 0px;
+    }
+    .cli-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cli-block{
+        width: 90%;
+        margin-bottom: 5px;
+    }
+    .b-two{
+        display: none;
+    }
+    /* <!-- end client section --> */
+
+    /* <!-- start contact section --> */
+    .contact{
+        padding: 10px;
+    }
+    .con-contaienr{
+        flex-direction: column-reverse;
+
+    }
+    .form{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+   
+    .form input{
+        width: 100%;
+    }
+    .form textarea{
+        width: 100%;
+    }
+    .form-btn{
+        width: 100%;
+        
+    }
+    .con-info{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+    /* <!-- end contact section --> */
+
+    /* <!-- start footer section --> */
+    .fot-contaienr{
+        flex-direction: column;
+    }
+    .fot-contaienr .cir{
+        margin-top: 20px;
+    }
+
+ }
